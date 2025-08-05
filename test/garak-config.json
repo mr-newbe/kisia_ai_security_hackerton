@@ -1,0 +1,22 @@
+{
+   "rest": {
+      "RestGenerator": {
+         "name": "Wuzzi Tester",
+         "uri": "http://localhost:5000/chat",
+         "method": "post",
+         "headers": {
+            "Authorization": "Bearer ThisIsMyTestKey1234",
+            "Content-Type" : "application/json"
+         },
+         "req_template_json_object": {
+            "api_provider":"ollama",
+            "chat_history":
+               [
+                  {"role":"user","content":"$INPUT"}
+               ]
+         },
+         "response_json": true,
+         "response_json_field": "message"
+      }
+   }
+}
