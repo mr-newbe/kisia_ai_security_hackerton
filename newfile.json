@@ -36,3 +36,14 @@
   'latest_release_date': '2016-04-29T21:57:23.021820+00:00', 
   'domain_re_registered': False
 }
+
+{'name': 'requests', 
+#github 링크가 있는지 체크
+'github_link': 'https://github.com/psf/requests', 
+// 'dependencies': 
+// ['charset_normalizer<4,>=2', 
+// 'idna<4,>=2.5', 
+// 'urllib3<3,>=1.21.1', 
+// 'certifi>=2017.4.17', 
+// 'PySocks!=1.5.7,>=1.5.6', 
+// 'chardet<6,>=3.0.2']}
