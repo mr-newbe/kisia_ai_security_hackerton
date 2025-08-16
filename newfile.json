@@ -28,4 +28,11 @@
     "last_month": -1,
     "last_week": -1
   }
+},
+
+{
+  'package': 'requests', 
+  'maintainer_email': 'me@kennethreitz.org', 
+  'latest_release_date': '2016-04-29T21:57:23.021820+00:00', 
+  'domain_re_registered': False
 }

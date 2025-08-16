@@ -40,6 +40,8 @@ def check_github_presence(package_name):
         return len(items) > 0
     return False
 
+
+#이름 유사도 탐지
 def check_typo_similarity(package_name, known_packages):
     scores = {pkg: fuzz.ratio(package_name, pkg) for pkg in known_packages}
     sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)
